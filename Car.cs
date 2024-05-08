@@ -27,4 +27,10 @@ public class Car
   {
     return year;
   }
+
+  // Override ToString
+  public override string ToString()
+  {
+    return $"Make: {make},\n Model: {model},\n Registration: {registration},\n Year: {year},\n Current Value: £{currentValue}.";
+  }
 }
